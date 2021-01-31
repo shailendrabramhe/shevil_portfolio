@@ -1,25 +1,46 @@
 ---
-title: Home
+title:
 hide_title: true
 sections:
   - section_id: hero
     type: section_hero
-    title: 'Hi, I''m Stackbit Exto Portfolio Theme.'
+    title: 'Hi, I''m Shevil 👋'
     content: >-
       This section can contain a subtitle or tagline. The recommended length is
       one to three sentences, but can be changed as you prefer.
     actions:
-      - label: Let's talk
-        url: /contact
+      - label: View resume
+        url: https://drive.google.com/file/d/1nfUmeGES7JYE6OKO9zH2tld9Zp3tg-5j/view?usp=sharing/?target=_blank
+        style: button
+      - label: Schedule meeting
+        url: https://calendly.com/shevil_panchal/30min
         style: button
   - section_id: latest-projects
     type: section_portfolio
     layout_style: mosaic
-    title: Recent Work
+    title: 🚀 Recent projects
     subtitle: An optional subtitle of the section
-    projects_number: 6
+    projects_number: 4
     view_all_label: View All
     view_all_url: portfolio
+  - section_id: latest-micro_projects
+    type: section_portfolio
+    layout_style: mosaic
+    title: 🧪 Recent creativity lab work
+    subtitle: An optional subtitle of the section
+    projects_number: 4
+    view_all_label: View All
+    view_all_url: lab
+  - section_id: latest-posts
+    type: section_posts
+    title: Latest from the Blog
+    subtitle: An optional subtitle of the section
+    posts_number: 3
+    col_number: three
+    actions:
+    - label: View blog
+      url: /blog
+      style: button
   - section_id: services
     type: section_grid
     title: What We Do
@@ -71,15 +92,5 @@ sections:
         content: >-
           Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
           convallis, interdum ligula vel, pretium diam.
-  - section_id: latest-posts
-    type: section_posts
-    title: Latest from the Blog
-    subtitle: An optional subtitle of the section
-    posts_number: 3
-    col_number: three
-    actions:
-      - label: View Blog
-        url: blog
-        style: button
 layout: advanced
 ---
