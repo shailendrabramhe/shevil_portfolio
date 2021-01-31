@@ -1,5 +1,5 @@
 title: Shevil Panchal | Product designer
-baseurl: "shevil_portfolio"
+baseurl:
 permalink: '/:title/'
 collections:
   posts:
