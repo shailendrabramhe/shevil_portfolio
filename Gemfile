@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-git_source(:github) {|shevil_portfolio| "https://github.com/shevilpanchal/shevil_portfolio.git" }
+# git_source(:github) {|repo_name| "https://github.com/shevilpanchal/shevil_portfolio.git" }
 
 gem "jekyll", "~> 3.8.4"
 
