@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-:github => "shevilpanchal/shevil_portfolio"
-
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "jekyll", "~> 3.8.4"

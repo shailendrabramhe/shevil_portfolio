@@ -61,16 +61,17 @@ sass:
   precision: 10
 plugins:
   - jekyll-menus
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-#   - LICENSE.md
-#   - README.md
-#   - netlify.toml
-#   - stackbit-build.sh
-#   - stackbit-pull.js
+exclude:
+  - .sass-cache/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js
